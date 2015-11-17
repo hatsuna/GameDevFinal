@@ -49,9 +49,15 @@
      <Compile Include="Assets\Script\DeathBlock.cs" />
 <<<<<<< HEAD
      <Compile Include="Assets\Script\Obstacle.cs" />
+     <Compile Include="Assets\Script\charMovement.cs" />
+     <Compile Include="Assets\Script\movementManger.cs" />
+=======
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\Obstacle.cs" />
 =======
      <Compile Include="Assets\Script\charMovement.cs" />
 >>>>>>> 5e90fe92c382fd4eda9f46d565a014761e2436fa
+>>>>>>> origin/master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
