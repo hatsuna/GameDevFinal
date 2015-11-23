@@ -14,11 +14,13 @@ public class GameManager : MonoBehaviour {
 	public GameObject player3;
 	public GameObject player4;
 	
-	List<GameObject> obstacleList = new List<GameObject>();
 	List<GameObject> playerList = new List<GameObject>();
-	
+
+	public List<GameObject> objectList = new List<GameObject>();
+
 	float elapsed = 0.0f;
-	float SpawnFreq = 3.0f;
+	float SpawnFreq = 0.75f;
+	float spawnDist = 30.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -36,15 +38,39 @@ public class GameManager : MonoBehaviour {
 			CreateRandomObstacle();
 			elapsed -= SpawnFreq;
 		}
-		//check if a player has been eliminated
-		/*foreach (GameObject player in playerList){
-			foreach (GameObject obstacle in obstacleList){
-				if(obstacle.tag == player.tag){
-					obstacleList.Remove(obstacle);
-					Destroy (obstacle);
+
+		if(!player1.activeInHierarchy){
+			foreach (GameObject obs in objectList){
+				if(obs.tag == "1"){
+					objectList.Remove(obs);
+					Destroy(obs);
 				}
 			}
-		}*/
+		}
+		if(!player2.activeInHierarchy){
+			foreach (GameObject obs in objectList){
+				if(obs.tag == "2"){
+					objectList.Remove(obs);
+					Destroy(obs);
+				}
+			}
+		}
+		if(!player3.activeInHierarchy){
+			foreach (GameObject obs in objectList){
+				if(obs.tag == "3"){
+					objectList.Remove(obs);
+					Destroy(obs);
+				}
+			}
+		}
+		if(!player4.activeInHierarchy){
+			foreach (GameObject obs in objectList){
+				if(obs.tag == "4"){
+					objectList.Remove(obs);
+					Destroy(obs);
+				}
+			}
+		}
 	}
 
 	void CreateRandomObstacle(){
@@ -54,29 +80,29 @@ public class GameManager : MonoBehaviour {
 		switch (rand){
 		case (1):
 			if(player1.activeInHierarchy){
-				newObstacle = (GameObject)Instantiate (obstacle1, new Vector3(0f, 1f, 10f), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
-				obstacleList.Add (newObstacle);
+				newObstacle = (GameObject)Instantiate (obstacle1, new Vector3(0f, 1f, spawnDist), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
+				objectList.Add (newObstacle);
 			}
 			break;
 
 		case (2):
 			if(player2.activeInHierarchy){
-				newObstacle = (GameObject)Instantiate (obstacle2, new Vector3(0f, 1.4f, 10f), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
-				obstacleList.Add (newObstacle);
+				newObstacle = (GameObject)Instantiate (obstacle2, new Vector3(0f, 1.4f, spawnDist), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
+				objectList.Add (newObstacle);
 			}
 			break;
 
 		case (3):
 			if(player3.activeInHierarchy){
-				newObstacle = (GameObject)Instantiate (obstacle3, new Vector3(0f, 2f, 10f), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
-				obstacleList.Add (newObstacle);
+				newObstacle = (GameObject)Instantiate (obstacle3, new Vector3(0f, 2f, spawnDist), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
+				objectList.Add (newObstacle);
 			}
 			break;
 
 		case (4):
 			if(player4.activeInHierarchy){
-				newObstacle = (GameObject)Instantiate (obstacle4, new Vector3(0f, 2.7f, 10f), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
-				obstacleList.Add (newObstacle);
+				newObstacle = (GameObject)Instantiate (obstacle4, new Vector3(0f, 2.7f, spawnDist), Quaternion.Euler(new Vector3(0f, 90f, 0f)));
+				objectList.Add (newObstacle);
 			}
 			break;
 		}
