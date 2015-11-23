@@ -17,9 +17,9 @@ public class movementManger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		rbody1 = player1.GetComponent<Rigidbody>();
-		rbody2 = player1.GetComponent<Rigidbody>();
-		rbody3 = player1.GetComponent<Rigidbody>();
-		rbody4 = player1.GetComponent<Rigidbody>();
+		rbody2 = player2.GetComponent<Rigidbody>();
+		rbody3 = player3.GetComponent<Rigidbody>();
+		rbody4 = player4.GetComponent<Rigidbody>();
 	
 	}
 	

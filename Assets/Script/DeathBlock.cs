@@ -6,8 +6,10 @@ public class DeathBlock : MonoBehaviour {
 	// Use this for initialization
 	void OnTriggerEnter(Collider activator)
 	{
-		Destroy(activator.gameObject);
-		Debug.Log("hello");
+		//Destroy(activator.gameObject);
+		//Debug.Log("hello");
+
+		activator.gameObject.SetActive(false);
 
 	}
 }
