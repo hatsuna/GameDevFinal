@@ -3,14 +3,16 @@ using System.Collections;
 
 public class Obstacle: MonoBehaviour {
 
+	float obstacleMoveSpeed = 5f;
+
 	// Use this for initialization
 	void Start () {
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	
+	void FixedUpdate () {
+		transform.position += new Vector3(0f, 0f, -obstacleMoveSpeed * Time.fixedDeltaTime);
 	}
 
 	void OnTriggerEnter(Collider activator){
