@@ -5,6 +5,7 @@ public class Obstacle: MonoBehaviour {
 
 	float obstacleMoveSpeed = 5f;
 	GameManager manager;
+	float explosionForce = 50.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -28,7 +29,7 @@ public class Obstacle: MonoBehaviour {
 			Destroy(gameObject);
 		}
 		else if (activator.tag != "Untagged"){
-			activator.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 0f, -1000f));
+			activator.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 0f, -explosionForce), ForceMode.Impulse);
 		}
 	}
 }
