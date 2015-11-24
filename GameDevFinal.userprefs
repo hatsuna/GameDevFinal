@@ -4,8 +4,8 @@
     <Files>
       <File FileName="Assets\Script\singlePress.cs" Line="46" Column="1" />
       <File FileName="Assets\Script\DeathBlock.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\movementManger.cs" Line="26" Column="36" />
-      <File FileName="Assets\Script\Obstacle.cs" Line="31" Column="106" />
+      <File FileName="Assets\Script\movementManger.cs" Line="7" Column="36" />
+      <File FileName="Assets\Script\Obstacle.cs" Line="8" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
