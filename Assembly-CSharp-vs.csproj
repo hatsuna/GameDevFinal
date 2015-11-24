@@ -52,7 +52,10 @@
      <Compile Include="Assets\Script\Obstacle.cs" />
      <Compile Include="Assets\Script\Restart.cs" />
      <Compile Include="Assets\Script\charMovement.cs" />
+     <Compile Include="Assets\Script\dualPress.cs" />
+     <Compile Include="Assets\Script\dualPressLanes.cs" />
      <Compile Include="Assets\Script\movementManger.cs" />
+     <Compile Include="Assets\Script\singlePress.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
