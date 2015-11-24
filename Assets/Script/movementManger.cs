@@ -3,8 +3,8 @@ using System.Collections;
 
 public class movementManger : MonoBehaviour {
 
-	public static float treadMillSpeed = -3.0f;
-	public static float pushSpeed = 150f;
+	public static float treadMillSpeed = -15.0f;
+	public static float pushSpeed = 10f;
 	public Transform player1;
 	public Transform player2;
 	public Transform player3;
@@ -24,22 +24,22 @@ public class movementManger : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		player1.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
 		player2.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
 		player3.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
 		player4.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
 		if(Input.GetKeyDown(KeyCode.Q)) {
-			rbody1.AddForce(new Vector3(0f, 0f, pushSpeed));
+			rbody1.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
 		if(Input.GetKeyDown(KeyCode.Z)) {
-			rbody2.AddForce(new Vector3(0f, 0f, pushSpeed));
+			rbody2.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
 		if(Input.GetKeyDown(KeyCode.P)) {
-			rbody3.AddForce(new Vector3(0f, 0f, pushSpeed));
+			rbody3.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
 		if(Input.GetKeyDown(KeyCode.M)) {
-			rbody4.AddForce(new Vector3(0f, 0f, pushSpeed));
+			rbody4.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
 	}
 }
