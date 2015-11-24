@@ -47,8 +47,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\DeathBlock.cs" />
-     <Compile Include="Assets\Script\Obstacle.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Script\charMovement.cs" />
+=======
+     <Compile Include="Assets\Script\Obstacle.cs" />
+<<<<<<< HEAD
+     <Compile Include="Assets\Script\charMovement.cs" />
+=======
+>>>>>>> origin/master
+>>>>>>> master
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
