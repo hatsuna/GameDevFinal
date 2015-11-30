@@ -5,7 +5,7 @@ public class DeathBlock : MonoBehaviour {
 
 	GameManager manager;
 	public float scrollSpeed = 0.5F;
-	public Renderer rend;
+	Renderer rend;
 	void Start() {
 		rend = GetComponent<Renderer>();
 		manager = FindObjectOfType<GameManager>();
