@@ -58,6 +58,7 @@ ModelImporter:
     400048: transform3
     400050: transform4
     4300000: pSphere4
+    7400000: Take 001
     9500000: //RootNode
     13700000: pSphere4
   materials:
