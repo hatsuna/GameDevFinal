@@ -47,15 +47,16 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\DeathBlock.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Script\charMovement.cs" />
-=======
+     <Compile Include="Assets\Script\FinishLine.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\Obstacle.cs" />
-<<<<<<< HEAD
+     <Compile Include="Assets\Script\Restart.cs" />
+     <Compile Include="Assets\Script\Token.cs" />
      <Compile Include="Assets\Script\charMovement.cs" />
-=======
->>>>>>> origin/master
->>>>>>> master
+     <Compile Include="Assets\Script\dualPress.cs" />
+     <Compile Include="Assets\Script\dualPressLanes.cs" />
+     <Compile Include="Assets\Script\movementManger.cs" />
+     <Compile Include="Assets\Script\singlePress.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
