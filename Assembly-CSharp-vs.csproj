@@ -51,6 +51,7 @@
      <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\Obstacle.cs" />
      <Compile Include="Assets\Script\Restart.cs" />
+     <Compile Include="Assets\Script\Token.cs" />
      <Compile Include="Assets\Script\charMovement.cs" />
      <Compile Include="Assets\Script\dualPress.cs" />
      <Compile Include="Assets\Script\dualPressLanes.cs" />
