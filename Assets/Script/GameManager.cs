@@ -18,56 +18,72 @@ public class GameManager : MonoBehaviour {
 
 	public List<GameObject> objectList = new List<GameObject>();
 
+	bool start=false;
+
 	float elapsed = 0.0f;
 	float SpawnFreq = 0.75f;
-	float spawnDist = 30.0f;
+	float spawnDist;
 
 	// Use this for initialization
 	void Start () {
-		CreateRandomObstacle();
+		spawnDist=transform.position.z;
 		playerList.Add(player1);
 		playerList.Add(player2);
 		playerList.Add(player3);
 		playerList.Add(player4);
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		elapsed += Time.deltaTime;
-		if (elapsed > SpawnFreq){
-			CreateRandomObstacle();
-			elapsed -= SpawnFreq;
-		}
+		if(start==false)
+		{
+			foreach(GameObject player in playerList) 
+			{
+				player.GetComponent<Rigidbody>().isKinematic=true;
+			}
+			StartCoroutine (ReadyStart());
+			//start=true;
 
-		if(!player1.activeInHierarchy){
-			foreach (GameObject obs in objectList){
-				if(obs.tag == "1"){
-					objectList.Remove(obs);
-					Destroy(obs);
+		}
+		if(start==true)
+		{
+			elapsed += Time.deltaTime;
+			if (elapsed > SpawnFreq){
+				CreateRandomObstacle();
+				elapsed -= SpawnFreq;
+			}
+
+			if(!player1.activeInHierarchy){
+				foreach (GameObject obs in objectList){
+					if(obs.tag == "1"){
+						objectList.Remove(obs);
+						Destroy(obs);
+					}
 				}
 			}
-		}
-		if(!player2.activeInHierarchy){
-			foreach (GameObject obs in objectList){
-				if(obs.tag == "2"){
-					objectList.Remove(obs);
-					Destroy(obs);
+			if(!player2.activeInHierarchy){
+				foreach (GameObject obs in objectList){
+					if(obs.tag == "2"){
+						objectList.Remove(obs);
+						Destroy(obs);
+					}
 				}
 			}
-		}
-		if(!player3.activeInHierarchy){
-			foreach (GameObject obs in objectList){
-				if(obs.tag == "3"){
-					objectList.Remove(obs);
-					Destroy(obs);
+			if(!player3.activeInHierarchy){
+				foreach (GameObject obs in objectList){
+					if(obs.tag == "3"){
+						objectList.Remove(obs);
+						Destroy(obs);
+					}
 				}
 			}
-		}
-		if(!player4.activeInHierarchy){
-			foreach (GameObject obs in objectList){
-				if(obs.tag == "4"){
-					objectList.Remove(obs);
-					Destroy(obs);
+			if(!player4.activeInHierarchy){
+				foreach (GameObject obs in objectList){
+					if(obs.tag == "4"){
+						objectList.Remove(obs);
+						Destroy(obs);
+					}
 				}
 			}
 		}
@@ -107,4 +123,49 @@ public class GameManager : MonoBehaviour {
 			break;
 		}
 	}
+	IEnumerator ReadyStart(){
+		Debug.Log("waiting");
+		yield return new WaitForSeconds(5f);
+		foreach(GameObject player in playerList) 
+		{
+			player.GetComponent<Rigidbody>().isKinematic=false;
+		}
+		start=true;
+	}
 }
+//if(!player1.activeInHierarchy){
+//	for(int i=0; i<=objectList.Count-1;i++)
+//	{
+//		if(objectList[i].tag == "1"){
+//			objectList.Remove(objectList[i]);
+//			Destroy(objectList[i]);
+//		}
+//	}
+//}
+//if(!player2.activeInHierarchy){
+//	for(int i=0; i<=objectList.Count-1;i++)
+//	{
+//		if(objectList[i].tag == "2"){
+//			objectList.Remove(objectList[i]);
+//			Destroy(objectList[i]);
+//		}
+//	}
+//}
+//if(!player3.activeInHierarchy){
+//	for(int i=0; i<=objectList.Count-1;i++)
+//	{
+//		if(objectList[i].tag == "3"){
+//			objectList.Remove(objectList[i]);
+//			Destroy(objectList[i]);
+//		}
+//	}
+//}
+//if(!player4.activeInHierarchy){
+//	for(int i=0; i<objectList.Count-1;i++)
+//	{
+//		if(objectList[i].tag == "4"){
+//			objectList.Remove(objectList[i]);
+//			Destroy(objectList[i]);
+//		}
+//	}
+//}
