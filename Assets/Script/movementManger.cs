@@ -25,10 +25,10 @@ public class movementManger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		player1.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-		player2.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-		player3.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-		player4.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+		//player1.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+	//	player2.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+		//player3.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+		//player4.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
 		if(Input.GetKeyDown(KeyCode.Q)) {
 			rbody1.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
