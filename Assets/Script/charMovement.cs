@@ -12,8 +12,7 @@ public class charMovement : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+	void FixedUpdate () {
 		if(Input.GetKeyDown(KeyCode.S)) {
 			rbody.AddForce(new Vector3(0f, 0f, pushSpeed));
 		}
