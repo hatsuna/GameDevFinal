@@ -42,10 +42,10 @@ public class CameraZoom : MonoBehaviour {
 	}
 	
 	float CalculateOrthographicSize(){
-		float farthest = Mathf.Max(player1.transform.position.x, player2.transform.position.x, 
-		                           player3.transform.position.x, player4.transform.position.x);
-		float closest = Mathf.Min(player1.transform.position.x, player2.transform.position.x, 
-		                          player3.transform.position.x, player4.transform.position.x);
+		float farthest = Mathf.Max(player1.transform.position.z, player2.transform.position.z, 
+		                           player3.transform.position.z, player4.transform.position.z);
+		float closest = Mathf.Min(player1.transform.position.z, player2.transform.position.z, 
+		                          player3.transform.position.z, player4.transform.position.z);
 		distance = Mathf.Abs(closest - farthest);
 		return (minimumOrthoSize + (distance/5f)); // original 7f
 	}
