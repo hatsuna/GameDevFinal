@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Obstacle: MonoBehaviour {
-
+	ScreenShake shake;
 	float obstacleMoveSpeed = 5f;
 	GameManager manager;
 	float explosionForce = 50.0f;
@@ -10,6 +10,7 @@ public class Obstacle: MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		manager = FindObjectOfType<GameManager>();
+		shake=Camera.main.GetComponent<ScreenShake>();
 	}
 	
 	// Update is called once per frame
@@ -30,6 +31,8 @@ public class Obstacle: MonoBehaviour {
 		}
 		else if (activator.tag != "Untagged"){
 			activator.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0f, 0f, -explosionForce), ForceMode.Impulse);
+			shake.DoScreenShake();
+
 		}
 	}
 }
