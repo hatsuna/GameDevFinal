@@ -18,6 +18,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 <<<<<<< HEAD
+<<<<<<< HEAD
 																			GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																									GlobalSection(MonoDevelopProperties) = preSolution
@@ -31,16 +32,17 @@ Global
 																					GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master
 =======
+																							GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> b59c117bb5c90212b2c9bd9c8ef01d89452a7f77
+=======
 												GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> GameDevFinal/master
 =======
 											GlobalSection(MonoDevelopProperties) = preSolution
->>>>>>> origin/master
 =======
 <<<<<<< HEAD
 									GlobalSection(MonoDevelopProperties) = preSolution
 =======
->>>>>>> origin/master
 <<<<<<< HEAD
 						GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> origin/master

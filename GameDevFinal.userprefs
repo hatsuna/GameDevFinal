@@ -1,9 +1,13 @@
 ﻿<Properties>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b59c117bb5c90212b2c9bd9c8ef01d89452a7f77
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="..\week14\Assets\CoroutineDemo.cs">
     <Files>
       <File FileName="..\week14\Assets\CoroutineDemo.cs" Line="8" Column="38" />
+<<<<<<< HEAD
 =======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="..\co-routine\Assets\Scripts\ScreenShake.cs">
@@ -16,6 +20,8 @@
       <File FileName="Assets\Script\Obstacle.cs" Line="1" Column="1" />
       <File FileName="..\co-routine\Assets\Scripts\ScreenShake.cs" Line="33" Column="2" />
 >>>>>>> GameDevFinal/master
+=======
+>>>>>>> b59c117bb5c90212b2c9bd9c8ef01d89452a7f77
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

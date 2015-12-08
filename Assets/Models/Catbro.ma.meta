@@ -35,6 +35,88 @@ ModelImporter:
     100054: pSphere3
     100056: pSphere4
     100058: pSphere5
+    100060: group10
+    100062: group11
+    100064: group12
+    100066: group12_pasted__pSphere3
+    100068: group1_pasted__pCylinder1
+    100070: group9
+    100072: joint1
+    100074: joint10
+    100076: joint11
+    100078: joint12
+    100080: joint13
+    100082: joint14
+    100084: joint15
+    100086: joint16
+    100088: joint17
+    100090: joint18
+    100092: joint19
+    100094: joint2
+    100096: joint3
+    100098: joint4
+    100100: joint5
+    100102: joint6
+    100104: joint7
+    100106: joint8
+    100108: joint9
+    100110: left
+    100112: pasted__group1
+    100114: pasted__group1_pasted__pCylinder1
+    100116: pasted__group1_pasted__pCylinder1 1
+    100118: pasted__group1_pasted__pCylinder2
+    100120: pasted__group4 1
+    100122: pasted__group5
+    100124: pasted__group8
+    100126: pasted__pasted__group4
+    100128: pasted__pasted__pasted__pSphere4
+    100130: pasted__pCylinder2
+    100132: pasted__pSphere3 1
+    100134: pasted__transform1
+    100136: pasted__transform2
+    100138: pasted__transform3
+    100140: pasted__transform4
+    100142: pasted__transform5
+    100144: pasted__transform6
+    100146: pCylinder2
+    100148: polySurface1
+    100150: polySurface2
+    100152: polySurface3
+    100154: polySurface3 1
+    100156: polySurface4
+    100158: polySurface5
+    100160: polySurface5 1
+    100162: pSphere6
+    100164: pSphere7
+    100166: pTorus1
+    100168: transform1
+    100170: transform10
+    100172: transform11
+    100174: transform12
+    100176: transform13
+    100178: transform14
+    100180: transform15
+    100182: transform16
+    100184: transform17
+    100186: transform18
+    100188: transform19
+    100190: transform2
+    100192: transform20
+    100194: transform21
+    100196: transform22
+    100198: transform23
+    100200: transform24
+    100202: transform25
+    100204: transform26
+    100206: transform27
+    100208: transform28
+    100210: transform3
+    100212: transform4
+    100214: transform5
+    100216: transform6
+    100218: transform7
+    100220: transform8
+    100222: transform9
     400000: back
     400002: //RootNode
     400004: group
@@ -65,6 +147,88 @@ ModelImporter:
     400054: pSphere3
     400056: pSphere4
     400058: pSphere5
+    400060: group10
+    400062: group11
+    400064: group12
+    400066: group12_pasted__pSphere3
+    400068: group1_pasted__pCylinder1
+    400070: group9
+    400072: joint1
+    400074: joint10
+    400076: joint11
+    400078: joint12
+    400080: joint13
+    400082: joint14
+    400084: joint15
+    400086: joint16
+    400088: joint17
+    400090: joint18
+    400092: joint19
+    400094: joint2
+    400096: joint3
+    400098: joint4
+    400100: joint5
+    400102: joint6
+    400104: joint7
+    400106: joint8
+    400108: joint9
+    400110: left
+    400112: pasted__group1
+    400114: pasted__group1_pasted__pCylinder1
+    400116: pasted__group1_pasted__pCylinder1 1
+    400118: pasted__group1_pasted__pCylinder2
+    400120: pasted__group4 1
+    400122: pasted__group5
+    400124: pasted__group8
+    400126: pasted__pasted__group4
+    400128: pasted__pasted__pasted__pSphere4
+    400130: pasted__pCylinder2
+    400132: pasted__pSphere3 1
+    400134: pasted__transform1
+    400136: pasted__transform2
+    400138: pasted__transform3
+    400140: pasted__transform4
+    400142: pasted__transform5
+    400144: pasted__transform6
+    400146: pCylinder2
+    400148: polySurface1
+    400150: polySurface2
+    400152: polySurface3
+    400154: polySurface3 1
+    400156: polySurface4
+    400158: polySurface5
+    400160: polySurface5 1
+    400162: pSphere6
+    400164: pSphere7
+    400166: pTorus1
+    400168: transform1
+    400170: transform10
+    400172: transform11
+    400174: transform12
+    400176: transform13
+    400178: transform14
+    400180: transform15
+    400182: transform16
+    400184: transform17
+    400186: transform18
+    400188: transform19
+    400190: transform2
+    400192: transform20
+    400194: transform21
+    400196: transform22
+    400198: transform23
+    400200: transform24
+    400202: transform25
+    400204: transform26
+    400206: transform27
+    400208: transform28
+    400210: transform3
+    400212: transform4
+    400214: transform5
+    400216: transform6
+    400218: transform7
+    400220: transform8
+    400222: transform9
     2300000: pasted__pasted__pCylinder1
     2300002: pasted__pasted__pSphere4
     2300004: pasted__pasted__pSphere5
@@ -113,8 +277,10 @@ ModelImporter:
     4300026: pasted__pSphere5
     4300028: pasted__pSphere5
     4300030: pasted__pasted__pSphere5
+    4300032: polySurface3
     7400000: Take 001
     9500000: //RootNode
+    13700000: polySurface3
   materials:
     importMaterials: 1
     materialName: 0
@@ -124,10 +290,6 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
-    animationImportWarnings: 
-    animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -171,10 +333,8 @@ ModelImporter:
     legStretch: .0500000007
     feetSpacing: 0
     rootMotionBoneName: 
-    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

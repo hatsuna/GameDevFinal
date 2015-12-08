@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 5c631212b3a9c6b4799bd72f4407e20b
 folderAsset: yes
 timeCreated: 1448999368
@@ -8,6 +9,11 @@ guid: e6b4116db72ebc94f9ab73fa6005f1dd
 folderAsset: yes
 timeCreated: 1447790635
 >>>>>>> GameDevFinal/master
+=======
+guid: 5c631212b3a9c6b4799bd72f4407e20b
+folderAsset: yes
+timeCreated: 1448999368
+>>>>>>> b59c117bb5c90212b2c9bd9c8ef01d89452a7f77
 licenseType: Free
 DefaultImporter:
   userData: 
