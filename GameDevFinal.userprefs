@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\week14\Assets\CoroutineDemo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\CameraZoom.cs">
     <Files>
-      <File FileName="..\week14\Assets\CoroutineDemo.cs" Line="8" Column="38" />
+      <File FileName="Assets\Script\CameraZoom.cs" Line="37" Column="75" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
