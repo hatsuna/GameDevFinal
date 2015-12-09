@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour {
 	List<GameObject> playerList = new List<GameObject>();
 
 	public List<GameObject> objectList = new List<GameObject>();
+
+	public Text countdown;
 
 	bool start=false;
 
@@ -124,13 +127,16 @@ public class GameManager : MonoBehaviour {
 		}
 	}
 	IEnumerator ReadyStart(){
-		Debug.Log("waiting");
-		yield return new WaitForSeconds(5f);
+		start=true;
+		for(int i=10;i>0;i--)
+		{
+			countdown.text=""+(int.Parse(""+countdown.text)-1);
+			yield return new WaitForSeconds(1f);
+		}
 		foreach(GameObject player in playerList) 
 		{
 			player.GetComponent<Rigidbody>().isKinematic=false;
 		}
-		start=true;
 	}
 }
 //if(!player1.activeInHierarchy){

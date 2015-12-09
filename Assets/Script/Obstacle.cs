@@ -5,7 +5,7 @@ public class Obstacle: MonoBehaviour {
 	ScreenShake shake;
 	float obstacleMoveSpeed = 5f;
 	GameManager manager;
-	float explosionForce = 50.0f;
+	float explosionForce = 120.0f;
 
 	// Use this for initialization
 	void Start () {

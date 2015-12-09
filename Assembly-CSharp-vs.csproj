@@ -46,12 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\CameraZoom.cs" />
      <Compile Include="Assets\Script\DeathBlock.cs" />
      <Compile Include="Assets\Script\FinishLine.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\Obstacle.cs" />
      <Compile Include="Assets\Script\Restart.cs" />
      <Compile Include="Assets\Script\ScreenShake.cs" />
+     <Compile Include="Assets\Script\StartScreen.cs" />
      <Compile Include="Assets\Script\Token.cs" />
      <Compile Include="Assets\Script\charMovement.cs" />
      <Compile Include="Assets\Script\dualPress.cs" />
