@@ -1,6 +1,6 @@
 //Maya ASCII 2016 scene
 //Name: SwimMan.ma
-//Last modified: Tue, Dec 08, 2015 03:39:39 PM
+//Last modified: Tue, Dec 08, 2015 03:53:34 PM
 //Codeset: 1252
 requires maya "2016";
 currentUnit -l centimeter -a degree -t film;
