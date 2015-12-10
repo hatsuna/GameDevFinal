@@ -3,8 +3,8 @@ using System.Collections;
 
 public class movementManger : MonoBehaviour {
 
-	public static float treadMillSpeed = -15.0f;
-	public static float pushSpeed = 10f;
+	//public static float treadMillSpeed = -15.0f;
+	public static float pushSpeed = 5f;
 	public Transform player1;
 	public Transform player2;
 	public Transform player3;
