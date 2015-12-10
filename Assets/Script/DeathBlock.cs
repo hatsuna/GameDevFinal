@@ -6,6 +6,8 @@ public class DeathBlock : MonoBehaviour {
 	GameManager manager;
 	public float scrollSpeed = 0.5F;
 	Renderer rend;
+	public GameObject particle;
+	public AudioClip clip;
 	void Start() {
 		rend = GetComponent<Renderer>();
 		manager = FindObjectOfType<GameManager>();
@@ -22,6 +24,8 @@ public class DeathBlock : MonoBehaviour {
 		}
 		else{
 			manager.objectList.Remove(activator.gameObject);
+			particle.GetComponent<Transform>().position=activator.GetComponent<Transform>().position;
+			particle.GetComponent<ParticleSystem>().Play();
 			Destroy(activator.gameObject);
 		}
 	}

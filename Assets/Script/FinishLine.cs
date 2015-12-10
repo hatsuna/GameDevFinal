@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class FinishLine : MonoBehaviour {
 
-	public Text WinText;
+	//public Text WinText;
 	string textBuffer;
 	GameManager manager;
 	Renderer rend;
@@ -15,7 +15,7 @@ public class FinishLine : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		WinText.text = textBuffer;
+		//WinText.text = textBuffer;
 	}
 
 
