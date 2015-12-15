@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 99887bc93d8a975498a11a1216e82803
+timeCreated: 1448999393
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back
+    100002: //RootNode
+    100004: group
+    100006: group1
+    100008: group2
+    100010: group3
+    100012: group4
+    100014: group5
+    100016: group6
+    100018: group7
+    100020: group8
+    100022: pasted__group
+    100024: pasted__group4
+    100026: pasted__group7
+    100028: pasted__pasted__pCylinder1
+    100030: pasted__pasted__pSphere4
+    100032: pasted__pasted__pSphere5
+    100034: pasted__pCylinder1
+    100036: pasted__pCylinder1 1
+    100038: pasted__pSphere3
+    100040: pasted__pSphere4
+    100042: pasted__pSphere4 1
+    100044: pasted__pSphere5
+    100046: pasted__pSphere5 1
+    100048: pCylinder1
+    100050: pSphere1
+    100052: pSphere2
+    100054: pSphere3
+    100056: pSphere4
+    100058: pSphere5
+    100060: group10
+    100062: group11
+    100064: group12
+    100066: group12_pasted__pSphere3
+    100068: group1_pasted__pCylinder1
+    100070: group9
+    100072: joint1
+    100074: joint10
+    100076: joint11
+    100078: joint12
+    100080: joint13
+    100082: joint14
+    100084: joint15
+    100086: joint16
+    100088: joint17
+    100090: joint18
+    100092: joint19
+    100094: joint2
+    100096: joint3
+    100098: joint4
+    100100: joint5
+    100102: joint6
+    100104: joint7
+    100106: joint8
+    100108: joint9
+    100110: left
+    100112: pasted__group1
+    100114: pasted__group1_pasted__pCylinder1
+    100116: pasted__group1_pasted__pCylinder1 1
+    100118: pasted__group1_pasted__pCylinder2
+    100120: pasted__group4 1
+    100122: pasted__group5
+    100124: pasted__group8
+    100126: pasted__pasted__group4
+    100128: pasted__pasted__pasted__pSphere4
+    100130: pasted__pCylinder2
+    100132: pasted__pSphere3 1
+    100134: pasted__transform1
+    100136: pasted__transform2
+    100138: pasted__transform3
+    100140: pasted__transform4
+    100142: pasted__transform5
+    100144: pasted__transform6
+    100146: pCylinder2
+    100148: polySurface1
+    100150: polySurface2
+    100152: polySurface3
+    100154: polySurface3 1
+    100156: polySurface4
+    100158: polySurface5
+    100160: polySurface5 1
+    100162: pSphere6
+    100164: pSphere7
+    100166: pTorus1
+    100168: transform1
+    100170: transform10
+    100172: transform11
+    100174: transform12
+    100176: transform13
+    100178: transform14
+    100180: transform15
+    100182: transform16
+    100184: transform17
+    100186: transform18
+    100188: transform19
+    100190: transform2
+    100192: transform20
+    100194: transform21
+    100196: transform22
+    100198: transform23
+    100200: transform24
+    100202: transform25
+    100204: transform26
+    100206: transform27
+    100208: transform28
+    100210: transform3
+    100212: transform4
+    100214: transform5
+    100216: transform6
+    100218: transform7
+    100220: transform8
+    100222: transform9
+    100224: pasted__joint1
+    100226: greasePencilPerspArtDrawPlane
+    100228: greasePencilPerspRenderPlane
+    400000: back
+    400002: //RootNode
+    400004: group
+    400006: group1
+    400008: group2
+    400010: group3
+    400012: group4
+    400014: group5
+    400016: group6
+    400018: group7
+    400020: group8
+    400022: pasted__group
+    400024: pasted__group4
+    400026: pasted__group7
+    400028: pasted__pasted__pCylinder1
+    400030: pasted__pasted__pSphere4
+    400032: pasted__pasted__pSphere5
+    400034: pasted__pCylinder1
+    400036: pasted__pCylinder1 1
+    400038: pasted__pSphere3
+    400040: pasted__pSphere4
+    400042: pasted__pSphere4 1
+    400044: pasted__pSphere5
+    400046: pasted__pSphere5 1
+    400048: pCylinder1
+    400050: pSphere1
+    400052: pSphere2
+    400054: pSphere3
+    400056: pSphere4
+    400058: pSphere5
+    400060: group10
+    400062: group11
+    400064: group12
+    400066: group12_pasted__pSphere3
+    400068: group1_pasted__pCylinder1
+    400070: group9
+    400072: joint1
+    400074: joint10
+    400076: joint11
+    400078: joint12
+    400080: joint13
+    400082: joint14
+    400084: joint15
+    400086: joint16
+    400088: joint17
+    400090: joint18
+    400092: joint19
+    400094: joint2
+    400096: joint3
+    400098: joint4
+    400100: joint5
+    400102: joint6
+    400104: joint7
+    400106: joint8
+    400108: joint9
+    400110: left
+    400112: pasted__group1
+    400114: pasted__group1_pasted__pCylinder1
+    400116: pasted__group1_pasted__pCylinder1 1
+    400118: pasted__group1_pasted__pCylinder2
+    400120: pasted__group4 1
+    400122: pasted__group5
+    400124: pasted__group8
+    400126: pasted__pasted__group4
+    400128: pasted__pasted__pasted__pSphere4
+    400130: pasted__pCylinder2
+    400132: pasted__pSphere3 1
+    400134: pasted__transform1
+    400136: pasted__transform2
+    400138: pasted__transform3
+    400140: pasted__transform4
+    400142: pasted__transform5
+    400144: pasted__transform6
+    400146: pCylinder2
+    400148: polySurface1
+    400150: polySurface2
+    400152: polySurface3
+    400154: polySurface3 1
+    400156: polySurface4
+    400158: polySurface5
+    400160: polySurface5 1
+    400162: pSphere6
+    400164: pSphere7
+    400166: pTorus1
+    400168: transform1
+    400170: transform10
+    400172: transform11
+    400174: transform12
+    400176: transform13
+    400178: transform14
+    400180: transform15
+    400182: transform16
+    400184: transform17
+    400186: transform18
+    400188: transform19
+    400190: transform2
+    400192: transform20
+    400194: transform21
+    400196: transform22
+    400198: transform23
+    400200: transform24
+    400202: transform25
+    400204: transform26
+    400206: transform27
+    400208: transform28
+    400210: transform3
+    400212: transform4
+    400214: transform5
+    400216: transform6
+    400218: transform7
+    400220: transform8
+    400222: transform9
+    400224: pasted__joint1
+    400226: greasePencilPerspArtDrawPlane
+    400228: greasePencilPerspRenderPlane
+    2300000: pasted__pasted__pCylinder1
+    2300002: pasted__pasted__pSphere4
+    2300004: pasted__pasted__pSphere5
+    2300006: pasted__pCylinder1
+    2300008: pasted__pCylinder1 1
+    2300010: pasted__pSphere3
+    2300012: pasted__pSphere4
+    2300014: pasted__pSphere4 1
+    2300016: pasted__pSphere5
+    2300018: pasted__pSphere5 1
+    2300020: pCylinder1
+    2300022: pSphere1
+    2300024: pSphere2
+    2300026: pSphere3
+    2300028: pSphere4
+    2300030: pSphere5
+    3300000: pasted__pasted__pCylinder1
+    3300002: pasted__pasted__pSphere4
+    3300004: pasted__pasted__pSphere5
+    3300006: pasted__pCylinder1
+    3300008: pasted__pCylinder1 1
+    3300010: pasted__pSphere3
+    3300012: pasted__pSphere4
+    3300014: pasted__pSphere4 1
+    3300016: pasted__pSphere5
+    3300018: pasted__pSphere5 1
+    3300020: pCylinder1
+    3300022: pSphere1
+    3300024: pSphere2
+    3300026: pSphere3
+    3300028: pSphere4
+    3300030: pSphere5
+    4300000: pSphere1
+    4300002: pSphere2
+    4300004: pCylinder1
+    4300006: pasted__pCylinder1
+    4300008: pasted__pCylinder1
+    4300010: pasted__pasted__pCylinder1
+    4300012: pSphere3
+    4300014: pasted__pSphere3
+    4300016: pSphere4
+    4300018: pasted__pSphere4
+    4300020: pasted__pasted__pSphere4
+    4300022: pasted__pSphere4
+    4300024: pSphere5
+    4300026: pasted__pSphere5
+    4300028: pasted__pSphere5
+    4300030: pasted__pasted__pSphere5
+    4300032: polySurface3
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: polySurface3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: greasePencilPerspArtDrawPlane
+        weight: 1
+      - path: greasePencilPerspRenderPlane
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group
+        weight: 1
+      - path: group5
+        weight: 1
+      - path: group5/pasted__group4
+        weight: 1
+      - path: group6
+        weight: 1
+      - path: group7
+        weight: 1
+      - path: group8
+        weight: 1
+      - path: group8/pasted__group7
+        weight: 1
+      - path: group9
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint5
+        weight: 1
+      - path: joint1/joint5/joint6
+        weight: 1
+      - path: joint1/joint5/joint6/joint7
+        weight: 1
+      - path: joint1/joint8
+        weight: 1
+      - path: joint1/joint8/joint9
+        weight: 1
+      - path: joint1/joint8/joint9/joint10
+        weight: 1
+      - path: joint1/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint8/joint12
+        weight: 1
+      - path: joint1/joint8/joint12/joint13
+        weight: 1
+      - path: joint1/joint8/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint8/joint15
+        weight: 1
+      - path: joint1/joint8/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: left
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

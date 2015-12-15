@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AnimationControllersScripts\SphereInput.cs" />
+     <Compile Include="Assets\Script\Animation.cs" />
      <Compile Include="Assets\Script\CameraZoom.cs" />
      <Compile Include="Assets\Script\DeathBlock.cs" />
      <Compile Include="Assets\Script\FinishLine.cs" />
