@@ -4,7 +4,7 @@ using System.Collections;
 public class movementManger : MonoBehaviour {
 
 	//public static float treadMillSpeed = -15.0f;
-	public static float pushSpeed = 5f;
+	public static float pushSpeed = 15f;
 	public Transform player1;
 	public Transform player2;
 	public Transform player3;
@@ -25,10 +25,7 @@ public class movementManger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		//player1.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-	//	player2.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-		//player3.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
-		//player4.transform.position += new Vector3(0f, 0f, treadMillSpeed * Time.deltaTime);
+
 		if(Input.GetKeyDown(KeyCode.Q)) {
 			rbody1.AddForce(new Vector3(0f, 0f, pushSpeed), ForceMode.Impulse);
 		}
