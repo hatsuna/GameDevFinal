@@ -1,0 +1,59 @@
+Due 12/22
+
+(Group) >>> itch.io
+Publicly Accessible web page itch.io
+Game Title, Group Members, 1 paragraph Description
+1 screenshot, windows / osx standalone builds
+Group post-partum (post-mortem) >>> wiki page on GitHub
+	General Story of Development (100-300 words)
+	Say 3 things that went right, 3 things that went wrong
+	(try not to assign blame to a person)
+
+(Individual) >>> send this as a Slack private message
+Document your tasks (one of each)
+	Code: what did you code
+	Design: what variables did you tune? What did you build in-editor
+	Asset: 3D model? sounds? images?
+Peer Assessment, for each group member:
+	2 positive things / contributions
+	2 things they need improvement on
+Let Robert know if you want personal feedback	
+
+
+Matt Tasks:
+
+Code:
+	- Gamemanager, winstate and loss state
+	- procedural obstacle creation
+	- corresponding obstacle removal when player is removed
+	- player and obstacle collision & trigger interaction
+
+Design:
+	- game prototype compilation
+	- obstacle and prototype player prefabs
+	- obstacle spawn point, spawn speed, randomization of obstacles
+	- obstacle knockback & obstacle / player interactions
+
+Asset:
+	- catbro smallest player character model & textures
+	- catbro rigging & animations 
+	- giraffe largest player character model & textures
+	- giraffe rigging & animations
+
+Michael:
+	+ Best in group at communicating, keeping tabs on other members, and making sure things got done
+	+ Art Asset master, did most of the art assets and solidified our artstyle/approach early on
+	- When it came to gameplay, was sort of hard to gauge how he felt, what direction he wanted gameplay to go in
+	- Those github skills, though honestly we all struggled
+
+Raff:
+	+ While the other 3 of us sort've went off in our own directions working on disparate parts of the game, Raff was the rock that we built everything on as he managed to kept everything together
+	+ Out of the 4 of us, Raff was never focusing on one major aspect of the game for too long, but focused on adding the small bits and pieces that the 3 of us didnt think of, the small but hugely important tidbits 
+	- Communication(?) There were sometimes where we couldn't get in contact with him, or we didn't know where he was
+	- Organization: though he somehow managed to keep everything together, it was a little confusing trying to naviagate our unity project, with some duplicate objects, and inconsistent folders (probably also in part because of github issues)
+
+Brandon:
+	+ Code master, coded a large part of the code
+	+ Negotiator, when we were having trouble deciding or coming to a consensus, Brandon narrowed the conversation so we could focus on the things that were important to moving the project along
+	- Code tunnelvision(?) Brandon did branch out to music as well, but it seemed like he was really hesitant to touch a lot of the in-editor stuff and pretty much anything in Maya, which also meant he spent a lot of time writing code that was sort of disconnected with the project
+	- Communication, Brandon's slack interactions were few and far between, so there were times where it was hard to communicate with him outside of class, but like Raff, this was mostly outside of class where Communication issues arose
